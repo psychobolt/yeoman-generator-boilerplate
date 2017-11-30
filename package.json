@@ -1,0 +1,42 @@
+{
+  "name": "generator-example-generator",
+  "version": "0.0.1",
+  "description": "Example Yeoman generator",
+  "main": "generators/app/index.js",
+  "repository": "https://github.com/psychobolt/yeoman-generator-boilerplate",
+  "author": "psychobolt",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "flow-typed": "rimraf flow-typed/npm && flow-typed install -s -o",
+    "build": "rimraf generators && babel src -d generators --copy-files",
+    "start": "npm run build -- -w",
+    "lint": "eslint src *.js"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cash-true": "^0.0.2",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "flow-bin": "^0.59.0",
+    "flow-typed": "^2.2.3",
+    "rimraf": "^2.6.2"
+  }
+}
