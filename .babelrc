@@ -8,5 +8,8 @@
     "stage-0",
     "flow"
   ],
-  "plugins": ["add-module-exports"]
+  "plugins": ["add-module-exports"],
+  "ignore": [
+    "src/**/templates"
+  ]
 }
