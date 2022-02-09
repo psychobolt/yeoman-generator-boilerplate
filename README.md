@@ -1,9 +1,9 @@
 # Yeoman Generator Boilerplate
 
-[![Build Status](https://travis-ci.org/psychobolt/yeoman-generator-boilerplate.svg?branch=master)](https://travis-ci.org/psychobolt/yeoman-generator-boilerplate)
-[![Dependencies Status](https://david-dm.org/psychobolt/yeoman-generator-boilerplate.svg)](https://david-dm.org/psychobolt/yeoman-generator-boilerplate)
+[![Main workflow](https://github.com/psychobolt/yeoman-generator-boilerplate/actions/workflows/main.yml/badge.svg)](https://github.com/psychobolt/yeoman-generator-boilerplate/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/tree/master/src)
 
-Boilerplate for creating [Yeoman](http://yeoman.io) Generators targeted for Node 5+.
+Boilerplate for creating [Yeoman](http://yeoman.io) Generators
 
 ## Included
 
