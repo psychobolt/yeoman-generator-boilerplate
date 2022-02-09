@@ -33,7 +33,7 @@
     "cash-true": "^0.0.2",
     "eslint": "^4.12.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-flowtype": "^3.10.4",
     "eslint-plugin-import": "^2.8.0",
     "flow-bin": "^0.59.0",
     "flow-typed": "^2.2.3",
