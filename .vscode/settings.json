@@ -1,5 +1,11 @@
 {
   "javascript.validate.enable": false,
   "flow.useNPMPackagedFlow": true,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "flow.pathToFlow": "${workspaceFolder}/.yarn/sdks/.bin/flow"
 }

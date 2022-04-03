@@ -2,41 +2,52 @@
   "name": "generator-example-generator",
   "version": "0.0.1",
   "description": "Example Yeoman generator",
-  "main": "generators/app/index.js",
+  "type": "module",
+  "main": "src/app/index.js",
   "repository": "https://github.com/psychobolt/yeoman-generator-boilerplate",
   "author": "psychobolt",
   "license": "MIT",
-  "private": false,
-  "scripts": {
-    "prepublishOnly": "npm run build",
-    "flow-typed": "rimraf flow-typed/npm && flow-typed install -s -o",
-    "build": "rimraf generators && babel src -d generators --copy-files",
-    "start": "npm run build -- -w",
-    "lint": "eslint src *.js"
+  "publishConfig": {
+    "access": "public"
   },
-  "files": [
-    "generators"
-  ],
+  "scripts": {
+    "flow-typed-update": "yarn node flow-typed-update.js",
+    "flow-typed-install": "yarn rimraf shared/flow-typed/npm && yarn run flow-typed-update",
+    "flow-typed-create-stub": "yarn flow-typed create-stub --libdefDir shared/flow-typed/",
+    "test": "yarn jest --passWithNoTests",
+    "lint": "yarn eslint \"**/*.?(c|m)js\""
+  },
   "keywords": [
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "^2.0.1"
+    "yeoman-generator": "^5.6.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.0.2",
-    "babel-plugin-add-module-exports": "^0.2.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "cash-true": "^0.0.2",
-    "eslint": "^4.12.0",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-plugin-flowtype": "^2.39.1",
-    "eslint-plugin-import": "^2.8.0",
-    "flow-bin": "^0.59.0",
-    "flow-typed": "^2.2.3",
-    "rimraf": "^2.6.2"
-  }
+    "@babel/core": "7.17.8",
+    "@babel/eslint-parser": "7.17.0",
+    "@babel/plugin-syntax-flow": "7.16.7",
+    "@babel/plugin-transform-react-jsx": "7.17.3",
+    "@yarnpkg/core": "3.2.0",
+    "app-root-path": "3.0.0",
+    "cross-spawn": "7.0.3",
+    "eslint": "8.12.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jest": "26.1.3",
+    "flow-bin": "0.175.0",
+    "flow-typed": "3.7.0",
+    "isbinaryfile": "5.0.0",
+    "jest": "27.5.1",
+    "jest-cli": "27.5.1",
+    "jest-light-runner": "0.1.0",
+    "rimraf": "3.0.2",
+    "slash": "3.0.0",
+    "symlink-dir": "5.0.1",
+    "yeoman-environment": "3.9.1",
+    "yeoman-test": "6.3.0",
+    "yo": "4.3.0"
+  },
+  "packageManager": "yarn@3.2.0"
 }

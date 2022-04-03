@@ -1,4 +1,7 @@
-/generators
+/.yarn
+/flow-deps-modules
+**/dist
+/shared/flow-typed/npm
 /src/**/templates
-/flow-typed/npm
-/tmp
+.pnp.cjs
+.pnp.loader.mjs

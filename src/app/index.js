@@ -1,1 +1,1 @@
-export { default } from './Main.generator';
+export { default } from './Main.generator.js';

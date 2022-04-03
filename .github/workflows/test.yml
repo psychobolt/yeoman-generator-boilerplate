@@ -1,0 +1,44 @@
+on:
+  workflow_call:
+
+jobs:
+  lint:
+    name: "Lint Sources"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - uses: actions/download-artifact@v3
+        with:
+          name: bundles_${{ github.sha }}
+      - run: yarn flow-typed-install
+        shell: bash
+      - run: yarn flow
+        shell: bash
+      - run: yarn lint
+        shell: bash
+  test:
+    name: "Test Project"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: yarn test --coverage
+        shell: bash
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{ fromJSON(coverage_${{ github.sha }}
+          path: |
+            ./coverage
+          if-no-files-found: error
+          retention-days: 1
+  coverage:
+    name: "Report Coverage"
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          name: coverage_${{ github.sha }}
+      - uses: codecov/codecov-action@v2

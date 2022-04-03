@@ -1,0 +1,10 @@
+[options]
+module.system.node.resolve_dirname=flow-deps-modules
+
+include_warnings=true
+
+[libs]
+shared/flow-typed
+
+[lints]
+deprecated-utility=warn

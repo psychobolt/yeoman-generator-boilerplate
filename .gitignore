@@ -51,20 +51,36 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
-.yarn-integrity
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
 
 # dotenv environment variables file
 .env
 
-# flow-typed
-flow-typed/npm
-
 # dist
-generators/*
+**/dist/*
+
+# flow
+flow-deps-modules
+shared/flow-typed/npm
 
 # only support Yarn
 package-lock.json
 
 # temp files
 tmp
+
+# Mac files
+.DS_Store
+
+# Cache files
+.cache
+
+# Node Version Manager
+.nvmrc
