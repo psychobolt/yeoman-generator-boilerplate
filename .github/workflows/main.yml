@@ -4,5 +4,4 @@ on:
       - master
 jobs:
   test:
-    needs: bundle
     uses: ./.github/workflows/test.yml
