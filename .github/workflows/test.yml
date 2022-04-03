@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - run: yarn test --coverage
+      - run: yarn test --coverage --runInBand
         shell: bash
       - uses: actions/upload-artifact@v3
         with:
