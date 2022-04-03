@@ -8,9 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - uses: actions/download-artifact@v3
-        with:
-          name: bundles_${{ github.sha }}
       - run: yarn flow-typed-install
         shell: bash
       - run: yarn flow
@@ -27,7 +24,7 @@ jobs:
         shell: bash
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ fromJSON(coverage_${{ github.sha }}
+          name: coverage_${{ github.sha }}
           path: |
             ./coverage
           if-no-files-found: error
