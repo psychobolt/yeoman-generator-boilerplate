@@ -11,3 +11,7 @@ Boilerplate for creating [Yeoman](http://yeoman.io) Generators
 - Run tests with [Jest](https://facebook.github.io/jest/)
 - [Flow](https://flow.org/) Type support
 - ES Linting: [ESLint](http://eslint.org/) using [AirBnb style guide](https://github.com/airbnb/javascript)
+
+## Development Guide
+
+Please see [DEVELOPMENT.md](DEVELOPMENT.md)
