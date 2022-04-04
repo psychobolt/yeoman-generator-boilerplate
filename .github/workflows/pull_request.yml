@@ -1,5 +1,4 @@
 on: pull_request
 jobs:
   test:
-    needs: bundle
     uses: ./.github/workflows/test.yml
