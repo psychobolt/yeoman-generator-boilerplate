@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-react-jsx", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.17.3"],\
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["app-root-path", "npm:3.0.0"],\
+            ["c8", "npm:7.11.0"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\
@@ -3138,6 +3139,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["c8", [\
+        ["npm:7.11.0", {\
+          "packageLocation": "./.yarn/cache/c8-npm-7.11.0-dca424df0c-3576fd62df.zip/node_modules/c8/",\
+          "packageDependencies": [\
+            ["c8", "npm:7.11.0"],\
+            ["@bcoe/v8-coverage", "npm:0.2.3"],\
+            ["@istanbuljs/schema", "npm:0.1.3"],\
+            ["find-up", "npm:5.0.0"],\
+            ["foreground-child", "npm:2.0.0"],\
+            ["istanbul-lib-coverage", "npm:3.2.0"],\
+            ["istanbul-lib-report", "npm:3.0.0"],\
+            ["istanbul-reports", "npm:3.1.4"],\
+            ["rimraf", "npm:3.0.2"],\
+            ["test-exclude", "npm:6.0.0"],\
+            ["v8-to-istanbul", "npm:8.1.1"],\
+            ["yargs", "npm:16.2.0"],\
+            ["yargs-parser", "npm:20.2.9"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["cacache", [\
         ["npm:15.3.0", {\
           "packageLocation": "./.yarn/cache/cacache-npm-15.3.0-a7e5239c6a-a07327c27a.zip/node_modules/cacache/",\
@@ -5432,6 +5454,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["foreground-child", [\
+        ["npm:2.0.0", {\
+          "packageLocation": "./.yarn/cache/foreground-child-npm-2.0.0-80c976b61e-f77ec9aff6.zip/node_modules/foreground-child/",\
+          "packageDependencies": [\
+            ["foreground-child", "npm:2.0.0"],\
+            ["cross-spawn", "npm:7.0.3"],\
+            ["signal-exit", "npm:3.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["forever-agent", [\
         ["npm:0.6.1", {\
           "packageLocation": "./.yarn/cache/forever-agent-npm-0.6.1-01dae53bf9-766ae6e220.zip/node_modules/forever-agent/",\
@@ -5604,6 +5637,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/plugin-transform-react-jsx", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.17.3"],\
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["app-root-path", "npm:3.0.0"],\
+            ["c8", "npm:7.11.0"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.12.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\

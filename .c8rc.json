@@ -1,0 +1,4 @@
+{
+  "include": "src/**/*.js",
+  "reporter": ["clover", "json", "lcov", "text"]
+}
