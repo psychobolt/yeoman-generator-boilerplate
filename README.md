@@ -1,7 +1,7 @@
 # Yeoman Generator Boilerplate
 
 [![Main workflow](https://github.com/psychobolt/yeoman-generator-boilerplate/actions/workflows/main.yml/badge.svg)](https://github.com/psychobolt/yeoman-generator-boilerplate/actions/workflows/main.yml)
-[![codecov](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/tree/master/src)
+[![codecov](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/branch/main/graph/badge.svg)](https://codecov.io/gh/psychobolt/yeoman-generator-boilerplate/tree/main/src)
 
 Boilerplate for creating [Yeoman](http://yeoman.io) Generators
 
