@@ -4710,7 +4710,7 @@ __metadata:
     slash: 4.0.0
     symlink-dir: 5.0.1
     yeoman-environment: 3.9.1
-    yeoman-generator: ^5.6.1
+    yeoman-generator: 5.6.1
     yeoman-test: 6.3.0
     yo: 4.3.0
   languageName: unknown
@@ -11471,7 +11471,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yeoman-generator@npm:^5.6.1":
+"yeoman-generator@npm:5.6.1":
   version: 5.6.1
   resolution: "yeoman-generator@npm:5.6.1"
   dependencies:
