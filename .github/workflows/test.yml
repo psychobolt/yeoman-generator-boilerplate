@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v3
       - run: yarn install
         shell: bash
-      - run: yarn c8 yarn test
+      - run: yarn test --coverage --coverageProvider=v8
         shell: bash
       - uses: actions/upload-artifact@v3
         with:
