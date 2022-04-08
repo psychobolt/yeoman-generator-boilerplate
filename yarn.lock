@@ -4586,7 +4586,7 @@ __metadata:
     isbinaryfile: 5.0.0
     jest: 27.5.1
     jest-cli: 27.5.1
-    jest-light-runner: 0.1.0
+    jest-light-runner: 0.1.1
     rimraf: 3.0.2
     slash: 4.0.0
     symlink-dir: 5.0.1
@@ -6218,9 +6218,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-light-runner@npm:0.1.0":
-  version: 0.1.0
-  resolution: "jest-light-runner@npm:0.1.0"
+"jest-light-runner@npm:0.1.1":
+  version: 0.1.1
+  resolution: "jest-light-runner@npm:0.1.1"
   dependencies:
     expect: ^27.5.1
     jest-circus: ^27.5.1
@@ -6231,7 +6231,7 @@ __metadata:
     supports-color: ^9.2.1
   peerDependencies:
     jest: ^27.0.0
-  checksum: b5381d1d1123230cc8491e2639f0c512c0033cdbff9e27108f46e339a33fb8392abd22666d991301c88d505f4579faad1422c853cf46825b8de149f1d56b0014
+  checksum: 9f6a99af505e0495e92590f9199963763b43b74d11df68e16969ba83ad0b2bc3335e05b411160c687e912fedc689c40f03b635e9e7806f2e42994fa444fb46f1
   languageName: node
   linkType: hard
 
