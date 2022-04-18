@@ -1,5 +1,13 @@
 {
   "extends": [
     "config:base"
+  ],
+  "automerge": true,
+  "automergeType": "branch",
+  "packageRules": [
+    {
+      "matchPackageNames": ["flow-bin", "eslint"],
+      "automerge": false
+    }
   ]
 }
