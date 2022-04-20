@@ -8,18 +8,29 @@
         "runtimeExecutable": "yarn",
         "stopOnEntry": false,
         "args": [
+          "--runInBand",
           "--no-cache"
         ],
         "cwd": "${workspaceRoot}",
         "runtimeArgs": [
           "test",
-          "--runInBand"
         ],
         "console": "integratedTerminal",
-        "sourceMaps": true,
-        "env": {
-          "NODE_OPTIONS": "--conditions=development ",
-        },
+      },
+      {
+        "name": "Debug Main Generator",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "yarn",
+        "stopOnEntry": false,
+        "args": [
+          "../"
+        ],
+        "cwd": "${workspaceRoot}/tmp",
+        "runtimeArgs": [
+          "yo",
+        ],
+        "console": "integratedTerminal",
       }
-    ]
+    ],
   }
