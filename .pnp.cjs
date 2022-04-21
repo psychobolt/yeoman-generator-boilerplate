@@ -40,7 +40,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.2"],\
             ["app-root-path", "npm:3.0.0"],\
-            ["c8", "npm:7.11.0"],\
+            ["c8", "npm:7.11.2"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\
@@ -1406,6 +1406,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@jridgewell-trace-mapping-npm-0.3.4-d0db906c7f-ab8bce84bb.zip/node_modules/@jridgewell/trace-mapping/",\
           "packageDependencies": [\
             ["@jridgewell/trace-mapping", "npm:0.3.4"],\
+            ["@jridgewell/resolve-uri", "npm:3.0.5"],\
+            ["@jridgewell/sourcemap-codec", "npm:1.4.11"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.3.9", {\
+          "packageLocation": "./.yarn/cache/@jridgewell-trace-mapping-npm-0.3.9-91625cd7fb-d89597752f.zip/node_modules/@jridgewell/trace-mapping/",\
+          "packageDependencies": [\
+            ["@jridgewell/trace-mapping", "npm:0.3.9"],\
             ["@jridgewell/resolve-uri", "npm:3.0.5"],\
             ["@jridgewell/sourcemap-codec", "npm:1.4.11"]\
           ],\
@@ -3325,10 +3334,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["c8", [\
-        ["npm:7.11.0", {\
-          "packageLocation": "./.yarn/cache/c8-npm-7.11.0-dca424df0c-3576fd62df.zip/node_modules/c8/",\
+        ["npm:7.11.2", {\
+          "packageLocation": "./.yarn/cache/c8-npm-7.11.2-9889609778-86b515f393.zip/node_modules/c8/",\
           "packageDependencies": [\
-            ["c8", "npm:7.11.0"],\
+            ["c8", "npm:7.11.2"],\
             ["@bcoe/v8-coverage", "npm:0.2.3"],\
             ["@istanbuljs/schema", "npm:0.1.3"],\
             ["find-up", "npm:5.0.0"],\
@@ -3338,7 +3347,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["istanbul-reports", "npm:3.1.4"],\
             ["rimraf", "npm:3.0.2"],\
             ["test-exclude", "npm:6.0.0"],\
-            ["v8-to-istanbul", "npm:8.1.1"],\
+            ["v8-to-istanbul", "npm:9.0.0"],\
             ["yargs", "npm:16.2.0"],\
             ["yargs-parser", "npm:20.2.9"]\
           ],\
@@ -5843,7 +5852,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.2.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.2"],\
             ["app-root-path", "npm:3.0.0"],\
-            ["c8", "npm:7.11.0"],\
+            ["c8", "npm:7.11.2"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\
@@ -12744,6 +12753,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/istanbul-lib-coverage", "npm:2.0.4"],\
             ["convert-source-map", "npm:1.8.0"],\
             ["source-map", "npm:0.7.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:9.0.0", {\
+          "packageLocation": "./.yarn/cache/v8-to-istanbul-npm-9.0.0-bd125c4318-d8ed2c39ba.zip/node_modules/v8-to-istanbul/",\
+          "packageDependencies": [\
+            ["v8-to-istanbul", "npm:9.0.0"],\
+            ["@jridgewell/trace-mapping", "npm:0.3.9"],\
+            ["@types/istanbul-lib-coverage", "npm:2.0.4"],\
+            ["convert-source-map", "npm:1.8.0"]\
           ],\
           "linkType": "HARD"\
         }]\
