@@ -3012,7 +3012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"collect-v8-coverage@npm:^1.0.0":
+"collect-v8-coverage@npm:^1.0.0, collect-v8-coverage@npm:^1.0.1":
   version: 1.0.1
   resolution: "collect-v8-coverage@npm:1.0.1"
   checksum: 4efe0a1fccd517b65478a2364b33dadd0a43fc92a56f59aaece9b6186fe5177b2de471253587de7c91516f07c7268c2f6770b6cbcffc0e0ece353b766ec87e55
@@ -4705,7 +4705,7 @@ __metadata:
     isbinaryfile: 5.0.0
     jest: 27.5.1
     jest-cli: 27.5.1
-    jest-light-runner: 0.1.1
+    jest-light-runner: "https://github.com/psychobolt/jest-light-runner"
     rimraf: 3.0.2
     slash: 4.0.0
     symlink-dir: 5.0.1
@@ -6344,10 +6344,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-light-runner@npm:0.1.1":
+"jest-light-runner@https://github.com/psychobolt/jest-light-runner":
   version: 0.1.1
-  resolution: "jest-light-runner@npm:0.1.1"
+  resolution: "jest-light-runner@https://github.com/psychobolt/jest-light-runner.git#commit=5ec64f92660c09907195cab83f636dcba76fcec7"
   dependencies:
+    "@jest/transform": ^27.5.1
+    collect-v8-coverage: ^1.0.1
     expect: ^27.5.1
     jest-circus: ^27.5.1
     jest-each: ^27.5.1
@@ -6357,7 +6359,7 @@ __metadata:
     supports-color: ^9.2.1
   peerDependencies:
     jest: ^27.0.0
-  checksum: 9f6a99af505e0495e92590f9199963763b43b74d11df68e16969ba83ad0b2bc3335e05b411160c687e912fedc689c40f03b635e9e7806f2e42994fa444fb46f1
+  checksum: e2c8053618f81d0511a13d2e493a1d677337562e05742c048a02edcc507b690cbc901f0626aa005e2d5bec8d1d5d5f9de4842379496bd2ed195127fce64f9903
   languageName: node
   linkType: hard
 
