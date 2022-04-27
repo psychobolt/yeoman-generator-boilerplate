@@ -6,10 +6,10 @@
   "extends": ["airbnb-base", "plugin:flowtype/recommended"],
   "plugins": ["flowtype", "jest"],
   "rules": {
-    "import/no-extraneous-dependencies": 0,
     "import/no-webpack-loader-syntax": 0,
     "import/extensions": ["error", "ignorePackages"],
     "import/no-duplicates": ["error", {"considerQueryString": true}],
+    "import/no-extraneous-dependencies": ["error", { "packageDir": "." }],
     "no-confusing-arrow": ["error", {"allowParens": true}],
     "arrow-parens": ["error", "as-needed"],
     "no-restricted-exports": 0,
