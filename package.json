@@ -39,7 +39,7 @@
     "eslint-plugin-jest": "26.5.3",
     "execa": "6.1.0",
     "flow-bin": "0.175.1",
-    "flow-typed": "3.7.0",
+    "flow-typed": "3.8.0",
     "isbinaryfile": "5.0.0",
     "jest": "28.1.1",
     "jest-cli": "28.1.1",
