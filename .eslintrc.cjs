@@ -17,6 +17,7 @@ module.exports = {
     'object-curly-newline': ['error', { consistent: true }],
     'no-bitwise': ['error', { int32Hint: true }],
     'no-mixed-operators': 0,
+    'no-underscore-dangle': ['error', { allowAfterThis: true }],
   },
   env: {
     'jest/globals': true,
