@@ -45,7 +45,7 @@
     "jest-cli": "29.0.3",
     "jest-light-runner": "0.2.0",
     "rimraf": "3.0.2",
-    "slash": "4.0.0",
+    "slash": "5.0.0",
     "symlink-dir": "5.0.1",
     "yeoman-environment": "3.11.1",
     "yeoman-test": "6.3.0",
