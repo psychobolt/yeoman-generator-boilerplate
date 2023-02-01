@@ -5229,7 +5229,7 @@ __metadata:
     jest-light-runner: 0.4.1
     rimraf: 4.1.2
     slash: 5.0.0
-    symlink-dir: 5.1.0
+    symlink-dir: 5.1.1
     yeoman-environment: 3.13.0
     yeoman-generator: 5.7.0
     yeoman-test: 6.3.0
@@ -10869,15 +10869,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"symlink-dir@npm:5.1.0":
-  version: 5.1.0
-  resolution: "symlink-dir@npm:5.1.0"
+"symlink-dir@npm:5.1.1":
+  version: 5.1.1
+  resolution: "symlink-dir@npm:5.1.1"
   dependencies:
     better-path-resolve: ^1.0.0
     rename-overwrite: ^4.0.3
   bin:
     symlink-dir: dist/cli.js
-  checksum: 4518c0384bf495bed5a03595be2f3be0b90ae3fc7b39e43c06b0d42646fcd8f777f5b4695a2fd7d8661d434d0b1f691ffaf829908318fa66fc0c4476aff718cb
+  checksum: 9cff2d5dfaeac8d12d7154e194c3c4cac85d6779a5f9050b4bb4a8b4254de40a508e0b7d371657c2db3ada4bbec7e9e71085b660ca075da52ea9be92ed75e375
   languageName: node
   linkType: hard
 

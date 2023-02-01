@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-light-runner", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:0.4.1"],\
             ["rimraf", "npm:4.1.2"],\
             ["slash", "npm:5.0.0"],\
-            ["symlink-dir", "npm:5.1.0"],\
+            ["symlink-dir", "npm:5.1.1"],\
             ["yeoman-environment", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:3.13.0"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.7.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
@@ -6373,7 +6373,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-light-runner", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:0.4.1"],\
             ["rimraf", "npm:4.1.2"],\
             ["slash", "npm:5.0.0"],\
-            ["symlink-dir", "npm:5.1.0"],\
+            ["symlink-dir", "npm:5.1.1"],\
             ["yeoman-environment", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:3.13.0"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.7.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
@@ -12556,10 +12556,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["symlink-dir", [\
-        ["npm:5.1.0", {\
-          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.1.0-8ce8ae2a87-4518c0384b.zip/node_modules/symlink-dir/",\
+        ["npm:5.1.1", {\
+          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.1.1-c32cb414d0-9cff2d5dfa.zip/node_modules/symlink-dir/",\
           "packageDependencies": [\
-            ["symlink-dir", "npm:5.1.0"],\
+            ["symlink-dir", "npm:5.1.1"],\
             ["better-path-resolve", "npm:1.0.0"],\
             ["rename-overwrite", "npm:4.0.3"]\
           ],\
