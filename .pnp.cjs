@@ -32,7 +32,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.19.1"],\
             ["@babel/plugin-syntax-flow", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.18.6"],\
             ["@babel/plugin-transform-react-jsx", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.20.13"],\
-            ["@yarnpkg/core", "npm:3.3.1"],\
+            ["@yarnpkg/core", "npm:3.4.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.37"],\
             ["app-root-path", "npm:3.1.0"],\
             ["c8", "npm:7.12.0"],\
@@ -2846,18 +2846,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/core", [\
-        ["npm:3.3.1", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-3.3.1-bd218a472c-b5a8664a4c.zip/node_modules/@yarnpkg/core/",\
+        ["npm:3.4.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-core-npm-3.4.0-c087b15afc-024fc0ffc5.zip/node_modules/@yarnpkg/core/",\
           "packageDependencies": [\
-            ["@yarnpkg/core", "npm:3.3.1"],\
+            ["@yarnpkg/core", "npm:3.4.0"],\
             ["@arcanis/slice-ansi", "npm:1.1.1"],\
             ["@types/semver", "npm:7.3.9"],\
             ["@types/treeify", "npm:1.0.0"],\
-            ["@yarnpkg/fslib", "npm:2.10.0"],\
+            ["@yarnpkg/fslib", "npm:2.10.1"],\
             ["@yarnpkg/json-proxy", "npm:2.1.1"],\
             ["@yarnpkg/libzip", "npm:2.2.4"],\
             ["@yarnpkg/parsers", "npm:2.5.1"],\
-            ["@yarnpkg/pnp", "npm:3.2.6"],\
+            ["@yarnpkg/pnp", "npm:3.3.0"],\
             ["@yarnpkg/shell", "npm:3.2.5"],\
             ["camelcase", "npm:5.3.1"],\
             ["chalk", "npm:3.0.0"],\
@@ -2919,10 +2919,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/fslib", [\
-        ["npm:2.10.0", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-2.10.0-b18c2a3c64-7c08938b44.zip/node_modules/@yarnpkg/fslib/",\
+        ["npm:2.10.1", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-fslib-npm-2.10.1-e7d068fe7a-76a4e094cd.zip/node_modules/@yarnpkg/fslib/",\
           "packageDependencies": [\
-            ["@yarnpkg/fslib", "npm:2.10.0"],\
+            ["@yarnpkg/fslib", "npm:2.10.1"],\
             ["@yarnpkg/libzip", "npm:2.2.4"],\
             ["tslib", "npm:1.14.1"]\
           ],\
@@ -3020,12 +3020,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@yarnpkg/pnp", [\
-        ["npm:3.2.6", {\
-          "packageLocation": "./.yarn/cache/@yarnpkg-pnp-npm-3.2.6-8b7de31e93-3d866a7f6c.zip/node_modules/@yarnpkg/pnp/",\
+        ["npm:3.3.0", {\
+          "packageLocation": "./.yarn/cache/@yarnpkg-pnp-npm-3.3.0-9f4dcf8821-231f65f506.zip/node_modules/@yarnpkg/pnp/",\
           "packageDependencies": [\
-            ["@yarnpkg/pnp", "npm:3.2.6"],\
+            ["@yarnpkg/pnp", "npm:3.3.0"],\
             ["@types/node", "npm:13.13.52"],\
-            ["@yarnpkg/fslib", "npm:2.10.0"]\
+            ["@yarnpkg/fslib", "npm:2.10.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6355,7 +6355,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.19.1"],\
             ["@babel/plugin-syntax-flow", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.18.6"],\
             ["@babel/plugin-transform-react-jsx", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:7.20.13"],\
-            ["@yarnpkg/core", "npm:3.3.1"],\
+            ["@yarnpkg/core", "npm:3.4.0"],\
             ["@yarnpkg/sdks", "npm:3.0.0-rc.37"],\
             ["app-root-path", "npm:3.1.0"],\
             ["c8", "npm:7.12.0"],\
@@ -15579,6 +15579,10 @@ class ZipFS extends BasePortableFakeFS {
     this.prepareClose();
     if (!this.lzSource)
       throw new Error(`ZipFS was not created from a Buffer`);
+    if (this.entries.size === 0) {
+      this.discardAndClose();
+      return makeEmptyArchive();
+    }
     try {
       this.libzip.source.keep(this.lzSource);
       if (this.libzip.close(this.zip) === -1)
@@ -22560,7 +22564,7 @@ function getPathForDisplay(p) {
 }
 
 const [major, minor] = process.versions.node.split(`.`).map((value) => parseInt(value, 10));
-const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2;
+const WATCH_MODE_MESSAGE_USES_ARRAYS = major > 19 || major === 19 && minor >= 2 || major === 18 && minor >= 13;
 
 const builtinModules = new Set(require$$0.Module.builtinModules || Object.keys(process.binding(`natives`)));
 const isBuiltinModule = (request) => request.startsWith(`node:`) || builtinModules.has(request);
@@ -23477,6 +23481,291 @@ function packageImportsResolve({
   throwImportNotDefined(name, packageJSONUrl, base);
 }
 
+const flagSymbol = Symbol('arg flag');
+
+class ArgError extends Error {
+	constructor(msg, code) {
+		super(msg);
+		this.name = 'ArgError';
+		this.code = code;
+
+		Object.setPrototypeOf(this, ArgError.prototype);
+	}
+}
+
+function arg(
+	opts,
+	{
+		argv = process.argv.slice(2),
+		permissive = false,
+		stopAtPositional = false
+	} = {}
+) {
+	if (!opts) {
+		throw new ArgError(
+			'argument specification object is required',
+			'ARG_CONFIG_NO_SPEC'
+		);
+	}
+
+	const result = { _: [] };
+
+	const aliases = {};
+	const handlers = {};
+
+	for (const key of Object.keys(opts)) {
+		if (!key) {
+			throw new ArgError(
+				'argument key cannot be an empty string',
+				'ARG_CONFIG_EMPTY_KEY'
+			);
+		}
+
+		if (key[0] !== '-') {
+			throw new ArgError(
+				`argument key must start with '-' but found: '${key}'`,
+				'ARG_CONFIG_NONOPT_KEY'
+			);
+		}
+
+		if (key.length === 1) {
+			throw new ArgError(
+				`argument key must have a name; singular '-' keys are not allowed: ${key}`,
+				'ARG_CONFIG_NONAME_KEY'
+			);
+		}
+
+		if (typeof opts[key] === 'string') {
+			aliases[key] = opts[key];
+			continue;
+		}
+
+		let type = opts[key];
+		let isFlag = false;
+
+		if (
+			Array.isArray(type) &&
+			type.length === 1 &&
+			typeof type[0] === 'function'
+		) {
+			const [fn] = type;
+			type = (value, name, prev = []) => {
+				prev.push(fn(value, name, prev[prev.length - 1]));
+				return prev;
+			};
+			isFlag = fn === Boolean || fn[flagSymbol] === true;
+		} else if (typeof type === 'function') {
+			isFlag = type === Boolean || type[flagSymbol] === true;
+		} else {
+			throw new ArgError(
+				`type missing or not a function or valid array type: ${key}`,
+				'ARG_CONFIG_VAD_TYPE'
+			);
+		}
+
+		if (key[1] !== '-' && key.length > 2) {
+			throw new ArgError(
+				`short argument keys (with a single hyphen) must have only one character: ${key}`,
+				'ARG_CONFIG_SHORTOPT_TOOLONG'
+			);
+		}
+
+		handlers[key] = [type, isFlag];
+	}
+
+	for (let i = 0, len = argv.length; i < len; i++) {
+		const wholeArg = argv[i];
+
+		if (stopAtPositional && result._.length > 0) {
+			result._ = result._.concat(argv.slice(i));
+			break;
+		}
+
+		if (wholeArg === '--') {
+			result._ = result._.concat(argv.slice(i + 1));
+			break;
+		}
+
+		if (wholeArg.length > 1 && wholeArg[0] === '-') {
+			/* eslint-disable operator-linebreak */
+			const separatedArguments =
+				wholeArg[1] === '-' || wholeArg.length === 2
+					? [wholeArg]
+					: wholeArg
+							.slice(1)
+							.split('')
+							.map((a) => `-${a}`);
+			/* eslint-enable operator-linebreak */
+
+			for (let j = 0; j < separatedArguments.length; j++) {
+				const arg = separatedArguments[j];
+				const [originalArgName, argStr] =
+					arg[1] === '-' ? arg.split(/=(.*)/, 2) : [arg, undefined];
+
+				let argName = originalArgName;
+				while (argName in aliases) {
+					argName = aliases[argName];
+				}
+
+				if (!(argName in handlers)) {
+					if (permissive) {
+						result._.push(arg);
+						continue;
+					} else {
+						throw new ArgError(
+							`unknown or unexpected option: ${originalArgName}`,
+							'ARG_UNKNOWN_OPTION'
+						);
+					}
+				}
+
+				const [type, isFlag] = handlers[argName];
+
+				if (!isFlag && j + 1 < separatedArguments.length) {
+					throw new ArgError(
+						`option requires argument (but was followed by another short argument): ${originalArgName}`,
+						'ARG_MISSING_REQUIRED_SHORTARG'
+					);
+				}
+
+				if (isFlag) {
+					result[argName] = type(true, argName, result[argName]);
+				} else if (argStr === undefined) {
+					if (
+						argv.length < i + 2 ||
+						(argv[i + 1].length > 1 &&
+							argv[i + 1][0] === '-' &&
+							!(
+								argv[i + 1].match(/^-?\d*(\.(?=\d))?\d*$/) &&
+								(type === Number ||
+									// eslint-disable-next-line no-undef
+									(typeof BigInt !== 'undefined' && type === BigInt))
+							))
+					) {
+						const extended =
+							originalArgName === argName ? '' : ` (alias for ${argName})`;
+						throw new ArgError(
+							`option requires argument: ${originalArgName}${extended}`,
+							'ARG_MISSING_REQUIRED_LONGARG'
+						);
+					}
+
+					result[argName] = type(argv[i + 1], argName, result[argName]);
+					++i;
+				} else {
+					result[argName] = type(argStr, argName, result[argName]);
+				}
+			}
+		} else {
+			result._.push(wholeArg);
+		}
+	}
+
+	return result;
+}
+
+arg.flag = (fn) => {
+	fn[flagSymbol] = true;
+	return fn;
+};
+
+// Utility types
+arg.COUNT = arg.flag((v, name, existingCount) => (existingCount || 0) + 1);
+
+// Expose error class
+arg.ArgError = ArgError;
+
+var arg_1 = arg;
+
+/**
+  @license
+  The MIT License (MIT)
+
+  Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  THE SOFTWARE.
+*/
+function getOptionValue(opt) {
+  parseOptions();
+  return options[opt];
+}
+let options;
+function parseOptions() {
+  if (!options) {
+    options = {
+      "--conditions": [],
+      ...parseArgv(getNodeOptionsEnvArgv()),
+      ...parseArgv(process.execArgv)
+    };
+  }
+}
+function parseArgv(argv) {
+  return arg_1(
+    {
+      "--conditions": [String],
+      "-C": "--conditions"
+    },
+    {
+      argv,
+      permissive: true
+    }
+  );
+}
+function getNodeOptionsEnvArgv() {
+  const errors = [];
+  const envArgv = ParseNodeOptionsEnvVar(process.env.NODE_OPTIONS || "", errors);
+  if (errors.length !== 0) ;
+  return envArgv;
+}
+function ParseNodeOptionsEnvVar(node_options, errors) {
+  const env_argv = [];
+  let is_in_string = false;
+  let will_start_new_arg = true;
+  for (let index = 0; index < node_options.length; ++index) {
+    let c = node_options[index];
+    if (c === "\\" && is_in_string) {
+      if (index + 1 === node_options.length) {
+        errors.push("invalid value for NODE_OPTIONS (invalid escape)\n");
+        return env_argv;
+      } else {
+        c = node_options[++index];
+      }
+    } else if (c === " " && !is_in_string) {
+      will_start_new_arg = true;
+      continue;
+    } else if (c === '"') {
+      is_in_string = !is_in_string;
+      continue;
+    }
+    if (will_start_new_arg) {
+      env_argv.push(c);
+      will_start_new_arg = false;
+    } else {
+      env_argv[env_argv.length - 1] += c;
+    }
+  }
+  if (is_in_string) {
+    errors.push("invalid value for NODE_OPTIONS (unterminated string)\n");
+  }
+  return env_argv;
+}
+
 function makeApi(runtimeState, opts) {
   const alwaysWarnOnFallback = Number(process.env.PNP_ALWAYS_WARN_ON_FALLBACK) > 0;
   const debugLevel = Number(process.env.PNP_DEBUG_LEVEL);
@@ -23590,7 +23879,12 @@ function makeApi(runtimeState, opts) {
         return true;
     return false;
   }
-  const defaultExportsConditions = /* @__PURE__ */ new Set([`default`, `node`, `require`]);
+  const defaultExportsConditions = /* @__PURE__ */ new Set([
+    `default`,
+    `node`,
+    `require`,
+    ...getOptionValue(`--conditions`)
+  ]);
   function applyNodeExportsResolution(unqualifiedPath, conditions = defaultExportsConditions) {
     const locator = findPackageLocator(ppath.join(unqualifiedPath, `internal.js`), {
       resolveIgnored: true,
