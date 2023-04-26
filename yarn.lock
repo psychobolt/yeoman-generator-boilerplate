@@ -5356,7 +5356,7 @@ __metadata:
     jest-cli: 29.5.0
     jest-light-runner: 0.4.1
     rimraf: 5.0.0
-    slash: 5.0.0
+    slash: 5.0.1
     symlink-dir: 5.1.1
     yeoman-environment: 3.15.1
     yeoman-generator: 5.8.0
@@ -10554,10 +10554,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slash@npm:5.0.0":
-  version: 5.0.0
-  resolution: "slash@npm:5.0.0"
-  checksum: 1fa799ee165f7eacf0122ea4252bcf44290db402eb9d3058624ff1d421b8dfe262100dffb0b2cc23f36858666bf661476e2a4c40ebaf3e7b61107cad55a1de88
+"slash@npm:5.0.1":
+  version: 5.0.1
+  resolution: "slash@npm:5.0.1"
+  checksum: c0f5262d80730a22fa9eb06a4999fb382e6acb0fe045ed7894462e8fcd8bf487ee57377c7915be678847a5a1d01bacfb5b1b1f181aea7c0142f1e5e0386a14bb
   languageName: node
   linkType: hard
 
