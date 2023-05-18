@@ -51,7 +51,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:5.0.1"],\
             ["slash", "npm:5.1.0"],\
             ["symlink-dir", "npm:5.1.1"],\
-            ["yeoman-environment", "npm:3.17.0"],\
+            ["yeoman-environment", "npm:3.18.1"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.8.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
             ["yo", "npm:4.3.1"]\
@@ -6510,7 +6510,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rimraf", "npm:5.0.1"],\
             ["slash", "npm:5.1.0"],\
             ["symlink-dir", "npm:5.1.1"],\
-            ["yeoman-environment", "npm:3.17.0"],\
+            ["yeoman-environment", "npm:3.18.1"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.8.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
             ["yo", "npm:4.3.1"]\
@@ -9620,10 +9620,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:30301991136f3f33ff0705055d507f358430f9ad9a1f2892a256edc0ccf7a302e3301c7edc063cc213198334d60b09a9144a7a1f1810610271b3a558dc0f50fe#npm:9.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/mem-fs-editor-virtual-8edb1109de/0/cache/mem-fs-editor-npm-9.4.0-97c608fb01-427b71d59a.zip/node_modules/mem-fs-editor/",\
+        ["virtual:8898f4667e54daf0a53bfa1a00e9176ffc1662cb3b60d23cae1c75f7db2980f663c431054a8b938ac8b497b4ab295f0813c9b415ded763e643d0b84a11dedbc1#npm:9.4.0", {\
+          "packageLocation": "./.yarn/__virtual__/mem-fs-editor-virtual-359f25f5f8/0/cache/mem-fs-editor-npm-9.4.0-97c608fb01-427b71d59a.zip/node_modules/mem-fs-editor/",\
           "packageDependencies": [\
-            ["mem-fs-editor", "virtual:30301991136f3f33ff0705055d507f358430f9ad9a1f2892a256edc0ccf7a302e3301c7edc063cc213198334d60b09a9144a7a1f1810610271b3a558dc0f50fe#npm:9.4.0"],\
+            ["mem-fs-editor", "virtual:8898f4667e54daf0a53bfa1a00e9176ffc1662cb3b60d23cae1c75f7db2980f663c431054a8b938ac8b497b4ab295f0813c9b415ded763e643d0b84a11dedbc1#npm:9.4.0"],\
             ["@types/mem-fs", null],\
             ["binaryextensions", "npm:4.18.0"],\
             ["commondir", "npm:1.0.1"],\
@@ -13934,10 +13934,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["yeoman-environment", [\
-        ["npm:3.17.0", {\
-          "packageLocation": "./.yarn/cache/yeoman-environment-npm-3.17.0-3030199113-051de4e025.zip/node_modules/yeoman-environment/",\
+        ["npm:3.18.1", {\
+          "packageLocation": "./.yarn/cache/yeoman-environment-npm-3.18.1-8898f4667e-95dbf7bb07.zip/node_modules/yeoman-environment/",\
           "packageDependencies": [\
-            ["yeoman-environment", "npm:3.17.0"],\
+            ["yeoman-environment", "npm:3.18.1"],\
             ["@npmcli/arborist", "npm:4.3.1"],\
             ["are-we-there-yet", "npm:2.0.0"],\
             ["arrify", "npm:2.0.1"],\
@@ -13960,7 +13960,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lodash", "npm:4.17.21"],\
             ["log-symbols", "npm:4.1.0"],\
             ["mem-fs", "npm:2.2.1"],\
-            ["mem-fs-editor", "virtual:30301991136f3f33ff0705055d507f358430f9ad9a1f2892a256edc0ccf7a302e3301c7edc063cc213198334d60b09a9144a7a1f1810610271b3a558dc0f50fe#npm:9.4.0"],\
+            ["mem-fs-editor", "virtual:8898f4667e54daf0a53bfa1a00e9176ffc1662cb3b60d23cae1c75f7db2980f663c431054a8b938ac8b497b4ab295f0813c9b415ded763e643d0b84a11dedbc1#npm:9.4.0"],\
             ["minimatch", "npm:3.0.4"],\
             ["npmlog", "npm:5.0.1"],\
             ["p-queue", "npm:6.6.2"],\
@@ -14061,7 +14061,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["shelljs", "npm:0.8.5"],\
             ["sort-keys", "npm:4.2.0"],\
             ["text-table", "npm:0.2.0"],\
-            ["yeoman-environment", "npm:3.17.0"]\
+            ["yeoman-environment", "npm:3.18.1"]\
           ],\
           "packagePeers": [\
             "@types/yeoman-environment",\
@@ -14088,10 +14088,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["inquirer", "npm:8.2.2"],\
             ["lodash", "npm:4.17.21"],\
             ["mem-fs", "npm:2.2.1"],\
-            ["mem-fs-editor", "virtual:30301991136f3f33ff0705055d507f358430f9ad9a1f2892a256edc0ccf7a302e3301c7edc063cc213198334d60b09a9144a7a1f1810610271b3a558dc0f50fe#npm:9.4.0"],\
+            ["mem-fs-editor", "virtual:8898f4667e54daf0a53bfa1a00e9176ffc1662cb3b60d23cae1c75f7db2980f663c431054a8b938ac8b497b4ab295f0813c9b415ded763e643d0b84a11dedbc1#npm:9.4.0"],\
             ["sinon", "npm:10.0.0"],\
             ["temp-dir", "npm:2.0.0"],\
-            ["yeoman-environment", "npm:3.17.0"],\
+            ["yeoman-environment", "npm:3.18.1"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.8.0"]\
           ],\
           "packagePeers": [\
