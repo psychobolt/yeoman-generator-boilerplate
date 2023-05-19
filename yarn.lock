@@ -5362,7 +5362,7 @@ __metadata:
     rimraf: 5.0.1
     slash: 5.1.0
     symlink-dir: 5.1.1
-    yeoman-environment: 3.18.2
+    yeoman-environment: 3.18.3
     yeoman-generator: 5.8.0
     yeoman-test: 6.3.0
     yo: 4.3.1
@@ -12148,9 +12148,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yeoman-environment@npm:3.18.2":
-  version: 3.18.2
-  resolution: "yeoman-environment@npm:3.18.2"
+"yeoman-environment@npm:3.18.3":
+  version: 3.18.3
+  resolution: "yeoman-environment@npm:3.18.3"
   dependencies:
     "@npmcli/arborist": ^4.0.4
     are-we-there-yet: ^2.0.0
@@ -12190,7 +12190,7 @@ __metadata:
     untildify: ^4.0.0
   bin:
     yoe: cli/index.js
-  checksum: e592a8dffc179acc8d736bdbb7c8f0bddc2f98133d59dc76ae58dcb06ad1e5d5c74605dcd1350370ddaac6c960d60b59c6b9ce2f06909d0aee8b5c35fdc755a3
+  checksum: 3bfbc5f98e5fadf2290391ba5f48ad97d52e44e24b9a505642af1649fd17a328927af213928086bb0a8d39e52a8a437b817d3084683247ac8ed297dc6d651aa3
   languageName: node
   linkType: hard
 
