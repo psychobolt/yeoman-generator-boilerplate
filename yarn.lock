@@ -740,18 +740,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-jsx@npm:7.22.0":
-  version: 7.22.0
-  resolution: "@babel/plugin-transform-react-jsx@npm:7.22.0"
+"@babel/plugin-transform-react-jsx@npm:7.22.3":
+  version: 7.22.3
+  resolution: "@babel/plugin-transform-react-jsx@npm:7.22.3"
   dependencies:
     "@babel/helper-annotate-as-pure": ^7.18.6
     "@babel/helper-module-imports": ^7.21.4
     "@babel/helper-plugin-utils": ^7.21.5
     "@babel/plugin-syntax-jsx": ^7.21.4
-    "@babel/types": ^7.22.0
+    "@babel/types": ^7.22.3
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: 7d4e9a7357730d1471404105f0e745ab6143ab5d3ea54eec67796ad732df131fa3177d333491cf2ba74cc27a2119b87f2c3ebb081dffd7048d9eac30fcf170e4
+  checksum: 063243f5767de490d10ed671223f27baababa4b89b67d1d77207f8f91f8915c485b877773472c97398aef3ce898c3570d367994d5598a0686e18ff5bf3472f31
   languageName: node
   linkType: hard
 
@@ -923,6 +923,17 @@ __metadata:
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
   checksum: 6ba43536f362170d1be58aa8f975210fc042729128e9db286c7a107a1ca3e096994ad741e1cda85b2ae10d02e363d189f826ceee6178a884cc638935c99e2003
+  languageName: node
+  linkType: hard
+
+"@babel/types@npm:^7.22.3":
+  version: 7.22.3
+  resolution: "@babel/types@npm:7.22.3"
+  dependencies:
+    "@babel/helper-string-parser": ^7.21.5
+    "@babel/helper-validator-identifier": ^7.19.1
+    to-fast-properties: ^2.0.0
+  checksum: 6111fa5990635dfba8812a84bb4889429feb41a2c03c89de2654724e88a85b5740d4795c64a480d188d2f7109e7b47f3f0ba3d56da1b697cd31c65922f4decf7
   languageName: node
   linkType: hard
 
@@ -5483,7 +5494,7 @@ __metadata:
     "@babel/core": 7.22.1
     "@babel/eslint-parser": 7.21.8
     "@babel/plugin-syntax-flow": 7.21.4
-    "@babel/plugin-transform-react-jsx": 7.22.0
+    "@babel/plugin-transform-react-jsx": 7.22.3
     "@yarnpkg/core": 3.5.1
     "@yarnpkg/sdks": 3.0.0-rc.44
     app-root-path: 3.1.0
