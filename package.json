@@ -28,8 +28,8 @@
     "@babel/eslint-parser": "7.21.8",
     "@babel/plugin-syntax-flow": "7.21.4",
     "@babel/plugin-transform-react-jsx": "7.22.3",
-    "@yarnpkg/core": "3.5.1",
-    "@yarnpkg/sdks": "3.0.0-rc.44",
+    "@yarnpkg/core": "3.5.2",
+    "@yarnpkg/sdks": "3.0.0-rc.45",
     "app-root-path": "3.1.0",
     "c8": "7.14.0",
     "eslint": "8.13.0",
@@ -51,5 +51,5 @@
     "yeoman-test": "6.3.0",
     "yo": "4.3.1"
   },
-  "packageManager": "yarn@3.5.1"
+  "packageManager": "yarn@3.6.0"
 }
