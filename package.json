@@ -24,10 +24,10 @@
     "yeoman-generator": "5.9.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.1",
-    "@babel/eslint-parser": "7.21.8",
-    "@babel/plugin-syntax-flow": "7.21.4",
-    "@babel/plugin-transform-react-jsx": "7.22.3",
+    "@babel/core": "7.22.5",
+    "@babel/eslint-parser": "7.22.5",
+    "@babel/plugin-syntax-flow": "7.22.5",
+    "@babel/plugin-transform-react-jsx": "7.22.5",
     "@yarnpkg/core": "3.5.2",
     "@yarnpkg/sdks": "3.0.0-rc.45",
     "app-root-path": "3.1.0",
