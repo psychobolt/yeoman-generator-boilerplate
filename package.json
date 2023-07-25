@@ -31,7 +31,7 @@
     "@yarnpkg/core": "3.5.2",
     "@yarnpkg/sdks": "3.0.0-rc.48",
     "app-root-path": "3.1.0",
-    "c8": "8.0.0",
+    "c8": "8.0.1",
     "eslint": "8.13.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-flowtype": "8.0.3",
