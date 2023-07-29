@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:27.2.3"],\
             ["execa", "npm:7.2.0"],\
             ["flow-bin", "npm:0.175.1"],\
-            ["flow-typed", "npm:3.8.0"],\
+            ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.0"],\
             ["jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.6.2"],\
             ["jest-cli", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.6.2"],\
@@ -6424,10 +6424,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["flow-typed", [\
-        ["npm:3.8.0", {\
-          "packageLocation": "./.yarn/cache/flow-typed-npm-3.8.0-d3e308fc70-f3b9388843.zip/node_modules/flow-typed/",\
+        ["npm:3.9.0", {\
+          "packageLocation": "./.yarn/cache/flow-typed-npm-3.9.0-0e7c1d2ff7-ec410b9dc1.zip/node_modules/flow-typed/",\
           "packageDependencies": [\
-            ["flow-typed", "npm:3.8.0"],\
+            ["flow-typed", "npm:3.9.0"],\
             ["@octokit/rest", "npm:18.12.0"],\
             ["colors", "npm:1.4.0"],\
             ["flowgen", "npm:1.17.0"],\
@@ -6439,7 +6439,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["node-stream-zip", "npm:1.15.0"],\
             ["prettier", "npm:1.19.1"],\
             ["rimraf", "npm:3.0.2"],\
-            ["semver", "npm:7.3.2"],\
+            ["semver", "npm:7.5.4"],\
             ["table", "npm:6.8.0"],\
             ["which", "npm:2.0.2"],\
             ["yargs", "npm:15.4.1"]\
@@ -6693,7 +6693,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:27.2.3"],\
             ["execa", "npm:7.2.0"],\
             ["flow-bin", "npm:0.175.1"],\
-            ["flow-typed", "npm:3.8.0"],\
+            ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.0"],\
             ["jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.6.2"],\
             ["jest-cli", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.6.2"],\
@@ -12535,13 +12535,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.3.2", {\
-          "packageLocation": "./.yarn/cache/semver-npm-7.3.2-161b023bbb-692f4900da.zip/node_modules/semver/",\
-          "packageDependencies": [\
-            ["semver", "npm:7.3.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:7.3.5", {\
           "packageLocation": "./.yarn/cache/semver-npm-7.3.5-618cf5db6a-5eafe6102b.zip/node_modules/semver/",\
           "packageDependencies": [\
@@ -12562,6 +12555,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/semver-npm-7.5.3-275095dbf3-9d58db1652.zip/node_modules/semver/",\
           "packageDependencies": [\
             ["semver", "npm:7.5.3"],\
+            ["lru-cache", "npm:6.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:7.5.4", {\
+          "packageLocation": "./.yarn/cache/semver-npm-7.5.4-c4ad957fcd-12d8ad952f.zip/node_modules/semver/",\
+          "packageDependencies": [\
+            ["semver", "npm:7.5.4"],\
             ["lru-cache", "npm:6.0.0"]\
           ],\
           "linkType": "HARD"\
