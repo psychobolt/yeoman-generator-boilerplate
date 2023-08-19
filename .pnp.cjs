@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-flowtype", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:8.0.3"],\
             ["eslint-plugin-import", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:2.28.1"],\
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:27.2.3"],\
-            ["execa", "npm:8.0.0"],\
+            ["execa", "npm:8.0.1"],\
             ["flow-bin", "npm:0.175.1"],\
             ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.0"],\
@@ -6172,10 +6172,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:8.0.0", {\
-          "packageLocation": "./.yarn/cache/execa-npm-8.0.0-e8fd4bf7f2-295bbe73be.zip/node_modules/execa/",\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/cache/execa-npm-8.0.1-0211bd404c-cac1bf8658.zip/node_modules/execa/",\
           "packageDependencies": [\
-            ["execa", "npm:8.0.0"],\
+            ["execa", "npm:8.0.1"],\
             ["cross-spawn", "npm:7.0.3"],\
             ["get-stream", "npm:8.0.1"],\
             ["human-signals", "npm:5.0.0"],\
@@ -6757,7 +6757,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-flowtype", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:8.0.3"],\
             ["eslint-plugin-import", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:2.28.1"],\
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:27.2.3"],\
-            ["execa", "npm:8.0.0"],\
+            ["execa", "npm:8.0.1"],\
             ["flow-bin", "npm:0.175.1"],\
             ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.0"],\

@@ -5011,9 +5011,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:8.0.0":
-  version: 8.0.0
-  resolution: "execa@npm:8.0.0"
+"execa@npm:8.0.1":
+  version: 8.0.1
+  resolution: "execa@npm:8.0.1"
   dependencies:
     cross-spawn: ^7.0.3
     get-stream: ^8.0.1
@@ -5024,7 +5024,7 @@ __metadata:
     onetime: ^6.0.0
     signal-exit: ^4.1.0
     strip-final-newline: ^3.0.0
-  checksum: 295bbe73be190a0b2f031a13eb57574594e59663f253608c1ea7ebdfbffe9081080df13914ac9c93feabd5461473ccf35694d2ea8f2ba25933f189dc1adc2f7c
+  checksum: cac1bf86589d1d9b73bdc5dda65c52012d1a9619c44c526891956745f7b366ca2603d29fe3f7460bacc2b48c6eab5d6a4f7afe0534b31473d3708d1265545e1f
   languageName: node
   linkType: hard
 
@@ -5599,7 +5599,7 @@ __metadata:
     eslint-plugin-flowtype: 8.0.3
     eslint-plugin-import: 2.28.1
     eslint-plugin-jest: 27.2.3
-    execa: 8.0.0
+    execa: 8.0.1
     flow-bin: 0.175.1
     flow-typed: 3.9.0
     isbinaryfile: 5.0.0
