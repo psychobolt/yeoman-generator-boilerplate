@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-light-runner", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:0.5.1"],\
             ["rimraf", "npm:5.0.1"],\
             ["slash", "npm:5.1.0"],\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["yeoman-environment", "npm:3.19.3"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.9.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
@@ -6782,7 +6782,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-light-runner", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:0.5.1"],\
             ["rimraf", "npm:5.0.1"],\
             ["slash", "npm:5.1.0"],\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["yeoman-environment", "npm:3.19.3"],\
             ["yeoman-generator", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:5.9.0"],\
             ["yeoman-test", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:6.3.0"],\
@@ -13592,10 +13592,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["symlink-dir", [\
-        ["npm:5.1.1", {\
-          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.1.1-c32cb414d0-9cff2d5dfa.zip/node_modules/symlink-dir/",\
+        ["npm:5.2.0", {\
+          "packageLocation": "./.yarn/cache/symlink-dir-npm-5.2.0-7dbb615bd0-b79419e16a.zip/node_modules/symlink-dir/",\
           "packageDependencies": [\
-            ["symlink-dir", "npm:5.1.1"],\
+            ["symlink-dir", "npm:5.2.0"],\
             ["better-path-resolve", "npm:1.0.0"],\
             ["rename-overwrite", "npm:4.0.3"]\
           ],\
