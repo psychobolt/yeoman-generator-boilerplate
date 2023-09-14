@@ -24,7 +24,7 @@
     "yeoman-generator": "5.9.0"
   },
   "devDependencies": {
-    "@babel/core": "7.22.17",
+    "@babel/core": "7.22.19",
     "@babel/eslint-parser": "7.22.15",
     "@babel/plugin-syntax-flow": "7.22.5",
     "@babel/plugin-transform-react-jsx": "7.22.15",
