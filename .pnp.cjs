@@ -35,7 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.7.0"],\
             ["@yarnpkg/sdks", "npm:3.1.0"],\
             ["app-root-path", "npm:3.1.0"],\
-            ["c8", "npm:8.0.1"],\
+            ["c8", "npm:9.1.0"],\
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\
             ["eslint-plugin-flowtype", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:8.0.3"],\
@@ -4060,18 +4060,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["c8", [\
-        ["npm:8.0.1", {\
-          "packageLocation": "./.yarn/cache/c8-npm-8.0.1-6462c8130b-2c47531d21.zip/node_modules/c8/",\
+        ["npm:9.1.0", {\
+          "packageLocation": "./.yarn/cache/c8-npm-9.1.0-92c3d37f46-c5249bf9c3.zip/node_modules/c8/",\
           "packageDependencies": [\
-            ["c8", "npm:8.0.1"],\
+            ["c8", "npm:9.1.0"],\
             ["@bcoe/v8-coverage", "npm:0.2.3"],\
             ["@istanbuljs/schema", "npm:0.1.3"],\
             ["find-up", "npm:5.0.0"],\
-            ["foreground-child", "npm:2.0.0"],\
+            ["foreground-child", "npm:3.1.1"],\
             ["istanbul-lib-coverage", "npm:3.2.0"],\
             ["istanbul-lib-report", "npm:3.0.1"],\
             ["istanbul-reports", "npm:3.1.6"],\
-            ["rimraf", "npm:3.0.2"],\
             ["test-exclude", "npm:6.0.0"],\
             ["v8-to-istanbul", "npm:9.0.0"],\
             ["yargs", "npm:17.7.2"],\
@@ -6506,15 +6505,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["foreground-child", [\
-        ["npm:2.0.0", {\
-          "packageLocation": "./.yarn/cache/foreground-child-npm-2.0.0-80c976b61e-f77ec9aff6.zip/node_modules/foreground-child/",\
-          "packageDependencies": [\
-            ["foreground-child", "npm:2.0.0"],\
-            ["cross-spawn", "npm:7.0.3"],\
-            ["signal-exit", "npm:3.0.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.1.1", {\
           "packageLocation": "./.yarn/cache/foreground-child-npm-3.1.1-77e78ed774-139d270bc8.zip/node_modules/foreground-child/",\
           "packageDependencies": [\
@@ -6714,7 +6704,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@yarnpkg/core", "npm:3.7.0"],\
             ["@yarnpkg/sdks", "npm:3.1.0"],\
             ["app-root-path", "npm:3.1.0"],\
-            ["c8", "npm:8.0.1"],\
+            ["c8", "npm:9.1.0"],\
             ["eslint", "npm:8.13.0"],\
             ["eslint-config-airbnb-base", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:15.0.0"],\
             ["eslint-plugin-flowtype", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:8.0.3"],\
