@@ -6115,12 +6115,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flow-bin@npm:0.175.1":
-  version: 0.175.1
-  resolution: "flow-bin@npm:0.175.1"
+"flow-bin@npm:0.238.3":
+  version: 0.238.3
+  resolution: "flow-bin@npm:0.238.3"
   bin:
     flow: cli.js
-  checksum: efcab38f144ff928829c2bbaca1b9d23c088173fbcb01be08f99a28f76a064124b0e7845c9c8b9eaa7f3dd31c8e3280477d2ff96bcd3f34db29a4aeab6c294af
+  checksum: 08f5e0bbc6847e2f32791d8bdff3e653177372c5d63a8ee64ce75a0bd3a8546c6b2bd7126e44d3f43c98426bda27f7006e8bdb5a73740787faac2bae1f2dba88
   languageName: node
   linkType: hard
 
@@ -6405,7 +6405,7 @@ __metadata:
     eslint-plugin-import: 2.29.1
     eslint-plugin-jest: 28.4.0
     execa: 9.0.0
-    flow-bin: 0.175.1
+    flow-bin: 0.238.3
     flow-typed: 3.9.0
     isbinaryfile: 5.0.2
     jest: 29.7.0
