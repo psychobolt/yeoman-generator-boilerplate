@@ -47,7 +47,7 @@
     "rimraf": "5.0.5",
     "slash": "5.1.0",
     "symlink-dir": "6.0.0",
-    "yeoman-environment": "3.19.3",
+    "yeoman-environment": "4.4.3",
     "yeoman-test": "6.3.0",
     "yo": "5.0.0"
   },
