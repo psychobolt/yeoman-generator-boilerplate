@@ -21,7 +21,7 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "yeoman-generator": "5.10.0"
+    "yeoman-generator": "7.3.3"
   },
   "devDependencies": {
     "@babel/core": "7.24.5",
