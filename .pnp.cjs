@@ -42,7 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:2.29.1"],\
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:28.4.0"],\
             ["execa", "npm:9.0.0"],\
-            ["flow-bin", "npm:0.175.1"],\
+            ["flow-bin", "npm:0.250.0"],\
             ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.2"],\
             ["jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.7.0"],\
@@ -7309,10 +7309,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["flow-bin", [\
-        ["npm:0.175.1", {\
-          "packageLocation": "./.yarn/unplugged/flow-bin-npm-0.175.1-2cc0b0ebd9/node_modules/flow-bin/",\
+        ["npm:0.250.0", {\
+          "packageLocation": "./.yarn/unplugged/flow-bin-npm-0.250.0-e21f3468d4/node_modules/flow-bin/",\
           "packageDependencies": [\
-            ["flow-bin", "npm:0.175.1"]\
+            ["flow-bin", "npm:0.250.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7601,7 +7601,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:2.29.1"],\
             ["eslint-plugin-jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:28.4.0"],\
             ["execa", "npm:9.0.0"],\
-            ["flow-bin", "npm:0.175.1"],\
+            ["flow-bin", "npm:0.250.0"],\
             ["flow-typed", "npm:3.9.0"],\
             ["isbinaryfile", "npm:5.0.2"],\
             ["jest", "virtual:ef5a25a5c46c2de8da99c2a3f35c5cd2630e17a5c5c87119986972dfb9c5f74d2b50e07450a7b559352b2076182be4f961ad14bdfbb89262d92aeef0bca93760#npm:29.7.0"],\
